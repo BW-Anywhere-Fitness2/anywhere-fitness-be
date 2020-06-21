@@ -15,5 +15,5 @@ function findBy(user) {
 }
 
 function getClasses() {
-  return db.select("*").from("class");
+  return db("class");
 }
