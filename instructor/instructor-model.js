@@ -1,4 +1,4 @@
-const db = require("../data/db-Config");
+const db = require("../data/db-Config.js");
 
 module.exports = {
   getClasses,
