@@ -1,6 +1,7 @@
 // Update with your config settings.
 const pgConnection =
   process.env.DATABASE_URL || "postgresql://postgres@localhost/anywhereFitness";
+
 module.exports = {
   development: {
     client: "sqlite3",
