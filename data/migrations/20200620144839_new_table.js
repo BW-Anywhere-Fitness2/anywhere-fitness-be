@@ -13,7 +13,7 @@ exports.up = function (knex) {
       tbl.increments();
       tbl.string("class_name", 255).notNullable().index();
       tbl.string("instructor_name", 255).notNullable();
-      tbl.string("class_type", 255).notNullable().index();
+      tbl.string("class_type", 255).notNullable();
       tbl.dateTime("date_time").notNullable().index();
       tbl.float("duration", 255).notNullable();
       tbl.string("intensity_level", 255).notNullable().index();
