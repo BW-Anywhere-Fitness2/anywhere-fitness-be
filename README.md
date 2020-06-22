@@ -11,10 +11,10 @@ Post Method - Register
 Path /api/auth/register
 
 Required Information:
-name: "Example"
-username: "Example"
-email: "Example@gmail.com"
-password: "Example"
+name: "Example" |
+username: "Example" |
+email: "Example@gmail.com" |
+password: "Example" |
 role: cannot be blank and must be either "instructor" or "client"
 
 ---
