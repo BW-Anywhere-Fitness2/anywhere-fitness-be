@@ -15,6 +15,6 @@ module.exports = (req, res, next) => {
       }
     });
   } else {
-    res.status(401).json({ message: "Please provide login credentials" });
+    res.status(402).json({ message: "Please provide login credentials" });
   }
 };
